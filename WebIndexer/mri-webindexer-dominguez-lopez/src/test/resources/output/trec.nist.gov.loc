@@ -1,0 +1,98 @@
+<HTML>
+<HEAD>
+<TITLE> Text REtrieval Conference (TREC) Home Page </TITLE>
+<script async type="text/javascript" id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=DOC&subagency=NIST&pua=UA-42404149-39&yt=true&exts=ppsx,pps,f90,sch,rtf,wrl,txz,m1v,xlsm,msi,xsd,f,tif,eps,mpg,xml,pl,xlt,c"></script>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF">
+
+<CENTER>
+<TD><FONT FACE="arial,helvetica">
+
+<TABLE WIDTH="570">
+<TR>
+	<TD><CENTER><IMG BORDER="0" SRC="images/paper_3.jpg" ALT="Text Retrieval Conference (TREC), to encourage research in information retrieval from large text collections" usemap="#paper_3">
+	</CENTER></TD>
+
+</TR><TR><TD>
+</TR><TR><TD><CENTER>
+</TR>
+<TR><TD>
+<CENTER>
+
+<BR><BR>
+<a href="./pubs/call2024.html">Call for Participation in TREC 2024</A><BR><BR>
+<BR><BR>
+
+<!--
+<a href="./trec.tracks.html">Call for TREC 2023 Track Proposals</a><br><br>
+-->
+
+<a href="./celebration/25thcelebration.html">Celebration of the 25th TREC: November 15, 2016</a><BR><BR>
+
+<a href="./pubs/2010.economic.impact.pdf">TREC Economic Impact Study</A><BR><BR>
+
+<a href="./trec.disclaim.html">TREC Statement on Product Testing and Advertising</A><BR><BR></B></H3>
+</CENTER>
+<HR>
+The TREC Conference series is co-sponsored by the NIST
+<a href="http://www.itl.nist.gov"> Information Technology Laboratory's (ITL)</a>
+<a href="http://www.nist.gov/itl/iad/rg/index.cfm">Retrieval Group</a> of the
+<a href="http://www.nist.gov/itl/iad/index.cfm">Information Access Division (IAD)</a>
+<BR>
+Contact us at: trec (at) nist.gov<BR>
+</TR>
+<TR>
+<TD></TR>
+</TD><TR><TD><HR>
+</TABLE><BR>
+
+
+
+</table>
+</TR>
+<TR>	
+<TD><FONT FACE="arial,helvetica">
+<BR>
+
+<a href="http://www.nist.gov"><IMG SRC="./images/nist_centered.gif" 
+ALT="National Institute of Standards and Technology Home Page" 
+BORDER=0 HSPACE=2 VSPACE=2></a><BR>
+is an agency of the <A HREF="http://www.doc.gov">
+U.S. Commerce Department</A> 
+
+<BR><BR>
+<TD><FONT FACE="arial,helvetica"><I>
+
+</TR><TR><TD><CENTER>
+	Last updated: Tuesday, 20-Feb-2024 13:25:19 EST<BR>
+	Date created: Tuesday, 01-Aug-00<BR></I>
+
+
+<A href="http://www.nist.gov/privacy-policy">
+privacy policy / security notice / accessibility statement</A><BR>
+<A href="http://www.nist.gov/disclaimer">
+disclaimer</A> / <A href="https://www.nist.gov/office-director/freedom-information-act">FOIA</A>
+
+
+
+</FONT>
+</TR>
+</TABLE>
+<BR><BR>
+
+
+<map name="paper_3">
+<area shape="rect" alt="TREC Overview" coords="177,100,269,125" href="overview.html">
+<area shape="rect" alt="Other Evaluations" coords="339,115,448,165" href="evals.html">
+<area shape="rect" alt="TREC FAQ" coords="394,215,547,305" href="faq.html">
+<area shape="rect" alt="TREC Publications" coords="32,141,152,167" href="pubs.html">
+<area shape="rect" alt="TREC Data" coords="390,315,466,356" href="data.html">
+<area shape="rect" alt="TREC Info for Active Participants" coords="5,219,123,297" href="act_part/act_part.html">
+<area shape="rect" alt="Tracks" coords="105,324,187,356" href="tracks.html">
+<area shape="rect" alt="TREC Past TREC Results" coords="140,371,246,425" href="results.html">
+<area shape="rect" alt="TREC Contact Information" coords="224,380,449,438" href="contact.html">
+<area shape="default" alt="&nbsp;" nohref>
+</map>
+
+</BODY>
+</HTML>

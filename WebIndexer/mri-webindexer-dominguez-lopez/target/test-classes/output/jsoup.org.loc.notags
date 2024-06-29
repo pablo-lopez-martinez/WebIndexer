@@ -1,0 +1,13 @@
+Extract attributes, text, and HTML from elements: jsoup Java HTML parser
+jsoup News Bugs Discussion Download API Reference Cookbook Try jsoup jsoup » Cookbook » Extracting data » Extract attributes, text, and HTML from elements Extract attributes, text, and HTML from elements Problem After parsing a document, and finding some elements, you'll want to get at the data inside those elements. Solution To get the value of an attribute, use the Node.attr(String key) method For the text on an element (and its combined children), use Element.text() For HTML, use Element.html(), or Node.outerHtml() as appropriate For example: String html = "<p>An <a href='http://example.com/'><b>example</b></a> link.</p>";
+Document doc = Jsoup.parse(html);
+Element link = doc.select("a").first();
+
+String text = doc.body().text(); // "An example link"
+String linkHref = link.attr("href"); // "http://example.com/"
+String linkText = link.text(); // "example""
+
+String linkOuterH = link.outerHtml(); 
+    // "<a href="http://example.com"><b>example</b></a>"
+String linkInnerH = link.html(); // "<b>example</b>"
+ Description The methods above are the core of the element data access methods. There are additional others: Element.id() Element.tagName() Element.className() and Element.hasClass(String className) All of these accessor methods have corresponding setter methods to change the data. See also The reference documentation for Element and the collection Elements class Working with URLs Finding elements with the CSS selector syntax Cookbook Introduction Parsing and traversing a Document Input Parse a document from a String Parsing a body fragment Load a Document from a URL Load a Document from a File Extracting data Use DOM methods to navigate a document Use CSS selectors to find elements Use XPath selectors to find elements and nodes Extract attributes, text, and HTML from elements Working with relative and absolute URLs Example program: list links Modifying data Set attribute values Set the HTML of an element Setting the text content of elements Cleaning HTML Sanitize untrusted HTML (to prevent XSS) jsoup HTML parser © 2009 - 2023 Jonathan Hedley

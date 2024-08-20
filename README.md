@@ -2,7 +2,7 @@
 
 ## Descripción
 
-`mri-webindexer` es una aplicación multihilo desarrollada en Java utilizando Maven. Su propósito es procesar archivos de texto `.url` que contienen listas de URLs, descargarlas, analizarlas e indexarlas utilizando Apache Lucene. El proyecto se centra en la eficiencia y calidad del procesamiento, garantizando la correcta indexación de los contenidos descargados, así como la posibilidad de realizar consultas avanzadas sobre el índice generado.
+`mri-webindexer` es una aplicación multihilo desarrollada en Java utilizando Maven. Su propósito es procesar archivos de texto `.url` que contienen listas de URLs, descargarlas, analizarlas e indexarlas utilizando Apache Lucene. El proyecto se centra en la eficiencia y calidad del procesamiento, garantizando la correcta indexación de los contenidos descargados, así como la posibilidad de realizar consultas avanzadas sobre el índice generado. Esta práctica ha sido desarrollada en la asignatura de Recuperación de la información del grado de Ingeniería Informática en la Universidad de la Coruña.
 
 ## Funcionalidades
 

@@ -30,6 +30,33 @@ La clase principal `WebIndexer` acepta los siguientes argumentos:
 - `-bodyTermVectors`: Habilita el almacenamiento de vectores de términos para el campo `body`.
 - `-analyzer Analyzer`: Especifica el `Analyzer` a usar. Por defecto, se usa el `Standard Analyzer`.
 
+## Clases Adicionales
+
+### TopTermsInDoc
+
+La clase `TopTermsInDoc` permite obtener los términos más relevantes en un documento específico dentro del índice. Es útil para analizar la relevancia de los términos dentro de un documento individual, basado en su frecuencia y la frecuencia inversa del documento (TF-IDF).
+
+#### Argumentos:
+
+- `-index path`: Ruta del índice.
+- `-field campo`: Campo del índice a analizar.
+- `-docID int`: ID del documento a analizar.
+- `-url url`: Alternativa a `-docID`, identifica el documento mediante su URL.
+- `-top n`: Número de términos a mostrar.
+- `-outfile path`: Archivo de salida para los resultados.
+
+## Clase: TopTermsInField
+
+La clase `TopTermsInField` permite obtener y listar los términos más frecuentes en un campo específico de un índice Lucene. Es una herramienta útil para análisis de contenido y extracción de palabras clave dentro de un campo particular del índice.
+
+### Argumentos
+
+- `-index path`: Ruta del índice que se quiere analizar.
+- `-field campo`: El campo dentro del índice del que se desea extraer los términos más comunes.
+- `-top n`: El número de términos más frecuentes que se desea obtener.
+- `-outfile path`: Archivo de salida donde se guardarán los resultados. Si no se especifica, los resultados se mostrarán en la consola.
+
+
 ### Archivo de Configuración
 
 Opcionalmente, se puede utilizar un archivo `config.properties` en `src/main/resources` con las siguientes propiedades:

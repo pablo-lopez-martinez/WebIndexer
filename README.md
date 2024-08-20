@@ -45,7 +45,7 @@ La clase `TopTermsInDoc` permite obtener los términos más relevantes en un doc
 - `-top n`: Número de términos a mostrar.
 - `-outfile path`: Archivo de salida para los resultados.
 
-## Clase: TopTermsInField
+### TopTermsInField
 
 La clase `TopTermsInField` permite obtener y listar los términos más frecuentes en un campo específico de un índice Lucene. Es una herramienta útil para análisis de contenido y extracción de palabras clave dentro de un campo particular del índice.
 
